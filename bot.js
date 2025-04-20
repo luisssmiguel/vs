@@ -20,7 +20,6 @@ venom
         '--disable-extensions',
         '--headless=new' // ✅ Compatível com o novo modo headless
       ],
-      executablePath: '/usr/bin/google-chrome-stable' // render usa esse path
     }
   )
   .then((client) => start(client))
